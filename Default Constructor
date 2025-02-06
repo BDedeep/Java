@@ -1,0 +1,10 @@
+class Phone {
+    // Default Constructor
+    Phone() {
+        System.out.println("New Phone Created!");
+    }
+    
+    public static void main(String[] args) {
+        Phone myPhone = new Phone();  // Constructor is called automatically
+    }
+}
